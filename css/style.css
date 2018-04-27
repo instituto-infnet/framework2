@@ -263,6 +263,11 @@ header {
   -moz-transition: -moz-transform 0.5s 0s, visibility 0s 0.5s;
   transition: transform 0.5s 0s, visibility 0s 0.5s;
 }
+
+.cd-dropdown li {
+  list-style: none;
+}
+
 .cd-dropdown h2 {
   /* dropdown title - mobile version only */
   position: relative;
@@ -1098,7 +1103,7 @@ h2{
 
 }
 .fakeh1{
-  font-weight: 200 !important;
+  font-weight: 300 !important;
   font-size: 36px !important;
   margin: 40px -20px 20px -58px;
   padding: 15px 48px;
@@ -1108,14 +1113,14 @@ h2{
   border-left: 10px solid #42A5F5; margin: 40px -20px 20px -58px !important; padding: 15px 44px;
 }
 .fakeh2{
-  font-weight: 400 !important;
+  font-weight: 300 !important;
   font-size: 30px !important;
   margin-top: 50px;
 }
 .fakeh3{
   margin: 20px !important;
   color: rgba(255,255,255,.9) !important;
-  font-weight: 700 !important;
+  font-weight: 300 !important;
   text-shadow: 0 1px 1px rgba(0,0,0,.5);
   text-align: center;
   text-transform: uppercase;
@@ -1125,21 +1130,21 @@ h2{
 }
 .fakeh3a{
   margin: 20px !important;
-  font-weight: 400 !important;
+  font-weight: 300 !important;
   font-size: 24px !important;
   margin: 20px 0px !important;
 }
 .fakeh3thumb{
   font-size: 14px !important;
   line-height: 24px !important;
-  font-weight: 400 !important;
+  font-weight: 300 !important;
   margin: 0px 0px 0px 0px !important;
   padding: 10px !important;
   color: #42A5F5;
 }
 .fakeh4{
   margin: 20px !important;
-  font-weight: 700 !important;
+  font-weight: 300 !important;
   font-size: 16px !important;
   margin: 30px auto !important;
 }
