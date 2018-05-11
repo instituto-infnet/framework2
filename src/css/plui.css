@@ -175,12 +175,12 @@
   color: #616161;
 }
 
-/*.pl-ra small:before{
+.pl-ra small:before{
   content: "▬";
   display: inline-block;
   margin-right: 10px;
   color:#bababa;
-}*/
+}
 
 /* Alinhamentos */
 
@@ -614,6 +614,12 @@
   font-size: 12px;
   line-height: 18px;
   margin-top: -24px;
+}
+
+.pl-img-legend:before{
+  content: "";
+  display: none;
+  margin-right: 0px;
 }
 
 /* THUMBNAIL */
